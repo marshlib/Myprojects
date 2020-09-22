@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+h1 {display: inline-block;
+    font-size: 30pt;
+    }
+.container {
+    padding-top: 100px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;  
+}
+.headtxt{
+    padding-top: 50px;
+    display: block;
+    color: white;
+    text-align: center;
+}
+h2 { font-family: 'Raleway', sans-serif;
+    font-size: 40pt;}
+h3 {
+        font-family:'Roboto Condensed', sans-serif;
+        font-size: 20pt;
+font-weight: normal;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+}
+header{
+    background-image: url(../images/intro-bg.png);
+    background-color: #fff; 
+    height: 900px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+#heading {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;   
+    padding-left: 100px;
+    display: inline-flex;    
+}
+#headerbtn{
+    background: transparent;
+    height: 30pt;
+    width: 20%;
+    border: solid;
+    color: white;
+    border-color: white;
+    border-width: 1pt;
+    font: 'Raleway', sans-serif;
+    font-size: 12pt;
+   margin: auto;    
+}
+#Form1 {
+    position:absolute; width:1145px;height:682px;z-index:83;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 100px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline;
+    float: right;  
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: bisque;
+}
+.abthead {
+        padding-top: 20px;
+        display: block;
+        justify-content: space-between;
+        text-align: center;
+    
+}
+
+.fthomes {
+    display:flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-bottom: 50px;
+    /*padding-left: 100px;
+    padding-right: 100px;*/
+    
+    }
+#ft {    
+    background-color: white;
+ border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+}
+#ft2 {    
+    background-color: white;
+ border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+}
+#ft3 {    
+    background-color: white;
+ border-style: solid;
+    border-color: white;
+    box-shadow: 2px 2px 2px 2px black;
+    text-align: center;
+}
+.ftimg{
+    width: 350px;    
+        
+}
+#housedet{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 25pt;
+}
+#agent{
+    background-color: rgb(17,30,108) ;
+    display: block;
+  justify-content:space-between;
+  align-items:center;  
+    color: white;
+    height: 500px;
+    
+}
+#agentimp{
+    width: 350px;
+    padding-left: 60px;
+    float: left;
+    padding-right: 60px;
+}
